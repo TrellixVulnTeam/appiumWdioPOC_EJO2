@@ -3,8 +3,8 @@ const DeleteNoteScreen = require("../screenObjects/android/delete-note.screen")
 
 describe('Notes test', () => {
 
-    let sampleTitle = 'This is a sample tile 123';
-    let sampleText = 'This is a sample text 123';
+    let sampleTitle = 'This is a sample tile';
+    let sampleText = 'This is a sample text';
 
     it('Skip tutorial', async () => {
         //Skip 
