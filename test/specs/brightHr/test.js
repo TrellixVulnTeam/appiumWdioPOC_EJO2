@@ -43,8 +43,10 @@ describe('Some test', () => {
         await $("//*[@text='Other']").isDisplayed();
         await $("//*[@text='BrightSafe Excavators 3']").isDisplayed();
         await $("//*[@text='BrightSafe Excavators 3']").isDisplayed();
-        await $('android=new UiScrollable(new UiSelector().scrollable(true)).scrollTextIntoView("Payable")');
-        await $("//*[@text='Time off in lieu']").isDisplayed();
+        // await $('android=new UiScrollable(new UiSelector().scrollable(true)).scrollTextIntoView("Payable")');
+        // await $("//*[@text='Time off in lieu']").isDisplayed();
+        await $('//*[@text="Personal"]').click();
+        await driver.pause('5000');
     });
 
 

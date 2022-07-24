@@ -21,7 +21,7 @@ class DeleteNoteScreen {
     }
 
     get checkDeletedItem() {
-        return $('~com.socialnmobile.dictapps.notepad.color.note:id/title');
+        return $('//*[@resource-id="com.socialnmobile.dictapps.notepad.color.note:id/title"]');
     }
 }
 module.exports = new DeleteNoteScreen();

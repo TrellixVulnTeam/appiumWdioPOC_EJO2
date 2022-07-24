@@ -51,7 +51,7 @@ describe('Notes test', () => {
         await DeleteNoteScreen.mainMenu.click();
         await DeleteNoteScreen.deletedItems.click();
 
-        //Check not eis present in trash can
+        //Check note is present in trash can
         await expect(DeleteNoteScreen.checkDeletedItem.toHaveText(sampleTitle));
     });
 
