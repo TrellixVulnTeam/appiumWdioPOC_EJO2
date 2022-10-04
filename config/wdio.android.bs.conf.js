@@ -29,7 +29,7 @@ config.capabilities = [{
     "appium:platformVersion": "10.0",
     "appium:deviceName": "Google Pixel 3",
     "appium:automationName": "UIAutomator2",
-    "appium:app": "bs://3aa975ac0b89846819705a8f5bc0aa0b3d837382",
+    "appium:app": "bs://c80a6ad44a5c1c96a5fa4e9f2804f2f3ad3eef3e",
     "appium:autoGrantPermissions": true
 }]
 

@@ -1,7 +1,7 @@
 const { default: driverCommand } = require("appium/build/lib/cli/driver-command");
 
 describe('Some test', () => {
-    it('App is loading', async () => {
+    it('Login to BrightHr', async () => {
         //Select Env 
         await $("//*[@resource-id='brighthr.com.brighthr.debug:id/debug_settings_confirm_button']").click();
         await $("//*[@text='Login']").click();
