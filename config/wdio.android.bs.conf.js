@@ -16,7 +16,7 @@ config.key = process.env.BROWSERSTACK_KEY;
 // ==================
 
 config.specs = [
-    'test/specs/android/testCopy.js'
+    'test/specs/brightHr/test.js'
 ];
 
 //
